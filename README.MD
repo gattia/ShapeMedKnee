@@ -2,12 +2,14 @@
 
 The model is located at: 
     https://huggingface.co/aagatti/ShapeMedKnee/
+
 The data is located at: 
     https://huggingface.co/datasets/aagatti/ShapeMedKnee/
+
 The NSM code for running the model is located at: 
     https://github.com/gattia/nsm
 
-# Instructions to download data, download model, and make predictions. 
+## Instructions to download data, download model, and make predictions. 
 
 1. Install NSM 
 Follow instruction on repository (https://github.com/gattia/nsm) or see below. Note
@@ -40,8 +42,7 @@ snapshot_download(repo_id="aagatti/ShapeMedKnee", local_dir='./')
 Get one example, show how to convert segmentation into 3D model (surface) using pymskt. 
 Show how to use mesh
     - Surface
-    - Segmentation - instructions are given, though it requires more data (700mb) to be
-    downloaded. 
+    - Segmentation 
 
 ```bash
 mkdir example_recon    
@@ -166,7 +167,7 @@ with a score >2 being someone that is not "healthy" (KL=0). Higher scores equate
 
 
 
-# Instructions to download data, install package, train new model. 
+## Instructions to download data, install package, train new model. 
 1. Install NSM (see above # 1)
 
 2. Download data 
