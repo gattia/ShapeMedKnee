@@ -9,6 +9,9 @@ The data is located at:
 The NSM code for running the model is located at: 
     https://github.com/gattia/nsm
 
+The paper is located at: 
+    COMING SOON!
+
 ## Instructions to download data, download model, and make predictions. 
 
 1. Install NSM 
