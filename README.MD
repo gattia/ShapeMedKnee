@@ -10,7 +10,7 @@ The NSM code for running the model is located at:
     https://github.com/gattia/nsm
 
 The medRxiv paper is located at: 
-    https://doi.org/10.1101/2024.05.06.24306965
+    https://www.medrxiv.org/content/10.1101/2024.05.06.24306965v1
 
 ## Instructions to download data, download model, and make predictions. 
 
