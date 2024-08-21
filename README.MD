@@ -30,9 +30,12 @@ pip install .
 ```
 
 2. Download model
-
 Install huggingface API, if not alread. 
 `pip install huggingface-hub`
+
+Login to huggingface
+`huggingface-cli login`
+Then you will be prompted for an access token, whicih you can get from the settings tab in your huggingface account. 
 
 Download the model: 
 ```python
